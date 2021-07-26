@@ -20,12 +20,12 @@ def send_notification_email(gmail:str,password:str):
 
     server.quit()
 
-
+URL = 'https://aws.amazon.com/new/?whats-new-content-all'
 while True:
 
-    url = 'https://aws.amazon.com/new/?whats-new-content-all'
+    
 
-    response = requests.get(url)
+    response = requests.get(URL)
     # print(response)
 
 
